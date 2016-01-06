@@ -4,7 +4,7 @@ function fizzBuzz(num1,num2,limit) {
   for (i=1; i<=limit; i++) {
     //start by creating an empty string
     var output = "";
-    //if i is divisble by the num2 argument, add 'Fizz' to our string
+    //if i is divisble by the num1 argument, add 'Fizz' to our string
     if (i%num1 == 0) {
       output += 'Fizz'
     }
