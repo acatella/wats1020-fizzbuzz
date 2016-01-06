@@ -18,7 +18,7 @@ function fizzBuzz(num1,num2,limit) {
       output += i
     }
     
-    console.log(output)
+    document.write(output + "<br>");
   }
 }
 
