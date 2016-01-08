@@ -5,6 +5,7 @@ Padding: 0;
 Margin: 0;
 }
 
+
 a {
   text-decoration: none;
   color: #000;
@@ -18,11 +19,17 @@ a:visited {
   padding: 8px 15px;
   border: 1px #ccc solid;
   border-radius: 30px;
+  font-family: "Ubuntu";
+  text-transform: uppercase;
+  font-size: .8em;
+}
+
+h1 {
+  font-family: "Ubuntu",sans-serif;
 }
 
 .container {
   display: flex;
-  width: 650px;
   margin: 8vh auto;
   flex-flow: row wrap;
   text-align: center;
