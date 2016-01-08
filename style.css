@@ -1,0 +1,35 @@
+* {
+-mox-box-sizing: border-box;
+Box-sizing: border-box
+Padding: 0;
+Margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:visited {
+  color: #000;
+}
+
+.btn {
+  padding: 8px 15px;
+  border: 1px #ccc solid;
+  border-radius: 30px;
+}
+
+.container {
+  display: flex;
+  width: 650px;
+  margin: 8vh auto;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.element {
+  flex-wrap: nowrap;
+  flex: 1 100%;
+  margin-top: 35px;
+}

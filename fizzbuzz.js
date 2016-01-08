@@ -12,18 +12,15 @@ function fizzBuzz(num1,num2,limit) {
     if (i%num1 == 0) {
       output += 'Fizz'
     }
-  
+
     if (i%num2 == 0) {
       output += 'Buzz'
     }
-    
+
     if (!output) {
       output += i
     }
-    
-    document.write(output + "<br>");
+
+    document.getElementById('js-results').innerHTML += output + "</br>";
   }
 }
-
-
-fizzBuzz(3,5,20)
